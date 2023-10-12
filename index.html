@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="box1">
+
+       <img src="./assets/avatar.png" alt="avatar">
+       <strong><h3>Paulo Henrique</h3></strong>
+       <figcaption>Futury Developer</figcaption>
+
+    </div>
+    <div class="social-links">
+
+         <img src="./assets/map-pin.svg" alt="map-pin">
+         <a href="#">Brasil</a>
+
+         <br>
+
+         <img src="./assets/linkedin.svg" alt="linkedin">
+         <a href="#">Paulo Henrique</a>
+         
+
+         <br>
+
+         <img src="./assets/instagram.svg" alt="instagram">
+         <a href="#">@jovem._.ph</a>
+         
+         <br>
+         
+         <img src="./assets/github.svg" alt="github">
+         <a href="#">github</a>
+
+         <br>
+
+         <img src="./assets/mail.svg" alt="email">
+         <a href="#">ph387231@gmail.com</a>
+
+         <br>
+
+         <img src="./assets/globe.svg" alt="site">
+         <a href="#">wwww.algumacoisa.com</a>
+
+    </div>
+    <div class="box3">
+
+         <h3>Tecnologias</h3>
+
+         <button style="display: inline-block; padding: 10px 20px; cursor: pointer; text-align: center; text-decoration: none; outline: none; color: #000; background-color: #CB92B1; border: none; border-radius: 30px;">
+            JAVASCRIPT
+          </button>
+
+          <button style="display: inline-block; padding: 10px 20px; cursor: pointer; text-align: center; text-decoration: none; outline: none; color: #000; background-color: #CB92B1; border: none; border-radius: 30px;">
+            HTML
+          </button>
+
+          <button style="display: inline-block; padding: 10px 20px; cursor: pointer; text-align: center; text-decoration: none; outline: none; color: #000; background-color: #CB92B1; border: none; border-radius: 30px;">
+           CSS
+          </button>
+
+          <button style="display: inline-block; padding: 10px 20px; cursor: pointer; text-align: center; text-decoration: none; outline: none; color: #000; background-color: #CB92B1; border: none; border-radius: 30px;">
+            FRONT-END
+         </button>
+
+    </div>
+    <div class="box4">
+
+           <h3>Experiências</h3>
+
+           <p>Ainda não há Experiências</p>
+           
+    </div>
+
+    <div class="box5">
+
+        <h3>Educação</h3>
+
+        <p>Não há informações</p>
+        
+ </div>
+
+ <!--sera aplicado ao lado direito da pagina-->
+
+   <div class="project">
+
+     <h3>My Projects</h3>
+     <a href="#">Veja todos</a>
+     
+   </div>
+
+    <div class="boxfutury">
+
+       <img src="./assets/folder.svg" alt="projetos">
+       <h3>Futuros Projetos</h3>
+
+       <p>Criar um site onde pessoas se ineragem, ouvem musica, joguem, fazem compras online
+        Tudo isso sem sair da plataforma.
+       </p>
+
+
+    </div>
+
+    <div class="postrecent">
+      <h3>Post Recent</h3>
+    </div>
+
+    <div style="display: flex;"  class="post">
+        
+        <img src="./assets/avatar.png" alt="avatar">
+
+        <div class="posth2">
+
+        <h2>Introdução à Programação em Python</h2>
+
+
+        <p id="tempo"></p>
+
+     <script>
+     var dataPost = new Date("2023-10-05T19:44:00");
+
+      function atualizarTempo() {
+      var agora = new Date();
+      var diferenca = agora - dataPost;
+
+      var dias = Math.floor(diferenca / (1000 * 60 * 60 * 24));
+
+      document.getElementById("tempo").innerHTML = " há " + dias + " dias ";
+      }
+
+      setInterval(atualizarTempo, 1000);
+     </script>
+
+
+     
+     <p>Python é uma linguagem de programação de alto nível conhecida por sua
+       sintaxe clara e legibilidade do código. É uma ótima linguagem para iniciantes devido à 
+       sua simplicidade e também é amplamente utilizada em campos científicos e de análise de dados.</p>
+     
+
+     </div>
+
+</body>
+</html>
