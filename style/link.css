@@ -3,29 +3,26 @@
     align-items: baseline;
     text-align: center;
 
-    width: 21.75rem;
     padding: 1.875rem 0 1.875rem 2.5rem;
     gap: 1.25rem;
     box-sizing: border-box;
 
     border-radius: 1.25rem;
+
+    img {
+        width: 20px; 
+        height: 20px;
+    }
+
+    a{
+        text-decoration: none;
+        color: #837E9F;
+    }
+    
 }
 
 .link-item {
     display: flex;
     align-items: center;
-    gap: 0.5rem; /* Espaço entre a imagem e o texto ou link */
+    gap: 0.5rem; 
 }
-
-#links img {
-    width: 20px; /* Ajuste o tamanho da imagem conforme necessário */
-    height: 20px;
-}
-
-#links a{
-    text-decoration: none;
-    color: #837E9F;
-}
-
-
-

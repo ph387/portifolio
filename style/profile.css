@@ -1,26 +1,23 @@
 #profile {
     position: relative;
-    width: 21.75rem;
-    border-radius: 1.25rem;
-    padding-top: 2rem;
-    padding-bottom: 3.0625rem;
+    
 
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 30px;
-}
 
-#profile img {
-    border-radius: 11.25rem;
-    border: 2px solid #00FF00;
+    img {
+        border-radius: 11.25rem;
+        border: 2px solid #00FF00;
+    
+        width: 8rem;
+        height: 8rem;
+    }
 
-    width: 8rem;
-    height: 8rem;
-}
-
-#profile #text {
-    display: flex;
-    flex-direction: column;
-    gap: 0.625rem;
+    #text {
+        display: flex;
+        flex-direction: column;
+        gap: 0.625rem;
+    }
 }
