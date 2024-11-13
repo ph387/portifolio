@@ -1,0 +1,73 @@
+.projects{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    gap: 31px;
+}
+
+#projects{
+    padding: 0;
+    width: 54rem;
+    height: 5.375rem;
+
+
+    justify-content: center; 
+    padding-left: 1.875rem;
+}
+
+.blueprints {
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr); 
+    padding: 0;
+     
+    gap: 30px;
+}
+
+.tasks{
+    width: 24rem;
+    height: 11.625rem;
+    padding: 1.875rem 0.625rem 1.875rem 1.875rem;
+
+    h2{
+        display: flex;
+        align-items: center;
+        gap: 16px;
+
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    p{
+        padding-top: 1.375rem;
+        padding-bottom: 1.6875rem;
+        justify-content: center;
+
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    h4{
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    a{
+        text-decoration: none;
+        color: black;
+    }
+
+    div{
+        display: flex;
+        margin-top: auto;
+
+        h4{
+            margin-right: 16px;
+        }
+
+        button{
+            margin-left: auto;
+        }
+    }
+}
+

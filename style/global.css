@@ -3,10 +3,17 @@
     margin: 0;
 }
 
-body{
+body {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+    gap: 16px; 
     margin: 2.5rem;
     background: #22212C;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%; 
 }
+
 
 .information{
     display: flex;
@@ -30,3 +37,18 @@ body{
 
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
 }
+
+ button{
+        background: none;
+        border: none;
+        font-size: 10px;
+        font-weight: bold;
+    
+        text-transform: uppercase;
+        font-size: 10px;
+        width: 5.375rem;
+        height: 1.5rem;
+    
+        border-radius: 1.875rem;
+        background-color: #CB92B1;
+    }
