@@ -16,8 +16,12 @@
     }
 
     #text {
+        align-items: center;
         display: flex;
         flex-direction: column;
         gap: 0.625rem;
     }
+
 }
+
+

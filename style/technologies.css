@@ -21,6 +21,8 @@
     button{
         background: none;
         border: none;
+        font-size: 10px;
+        font-weight: bold;
     
         text-transform: uppercase;
         font-size: 10px;

@@ -1,0 +1,30 @@
+#Training{
+    padding-left: 1.25rem;
+    padding-right: 1.9375rem;
+    box-sizing: border-box;
+    gap: 15px;
+
+    ul{
+        display: flex;
+        flex-direction: column;
+        padding-left: 2.5rem;
+        gap: 15px;
+
+        li{
+            font-size: 14px;
+            font-weight: bold;
+
+            p:first-child{
+                font-size: 12px;
+                font-weight: 300;
+            }
+
+            p:nth-child(2){
+                font-size: 12px;
+                font-weight: 600;
+            }
+        }
+    }
+
+    
+}
